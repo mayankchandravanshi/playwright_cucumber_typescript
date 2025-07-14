@@ -1,0 +1,21 @@
+{
+  "name": "playwright-cucumber-typescript",
+  "version": "0.0.1",
+  "description": "This Framework is a Boilerplate for Playwright, Cucumber (BDD) and Typescript",
+  "main": "index.js",
+  "scripts": {
+    "cucumber": "cucumber-js --config config/cucumber.js",
+    "test": "playwright test",
+    "lint:check": "eslint . --max-warnings=0",
+  },
+  "keywords": ["playwright-cucumber-typescript"],
+  "author": "Mayank C",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.3.0",
+    "@playwright/test": "^1.50.1",
+    "@types/node": "^22.13.0",
+    "ts-node": "^10.9.2",
+    "eslint": "9.30.1"
+  }
+}
